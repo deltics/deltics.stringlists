@@ -52,6 +52,9 @@ interface
     Deltics.StringTypes;
 
 
+  {$i deltics.stringtypes.aliases.inc}
+
+
   type
     IStringList         = Deltics.Strings.Lists.String_.IStringList;
     IUtf8StringList     = Deltics.Strings.Lists.Utf8.IUtf8StringList;
