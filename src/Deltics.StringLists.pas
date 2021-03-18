@@ -1,4 +1,4 @@
-{
+﻿{
   * X11 (MIT) LICENSE *
 
   Copyright © 2013 Jolyon Smith
@@ -37,18 +37,18 @@
   website         : <EXTLINK http://www.deltics.co.nz>www.deltics.co.nz</EXTLINK>
 }
 
-{$i deltics.strings.lists.inc}
+{$i deltics.stringlists.inc}
 
-  unit Deltics.Strings.Lists;
+  unit Deltics.StringLists;
 
 
 interface
 
   uses
-    Deltics.Strings.Lists.Ansi,
-    Deltics.Strings.Lists.String_,
-    Deltics.Strings.Lists.Utf8,
-    Deltics.Strings.Lists.Wide,
+    Deltics.StringLists.Ansi,
+    Deltics.StringLists.String_,
+    Deltics.StringLists.Utf8,
+    Deltics.StringLists.Wide,
     Deltics.StringTypes;
 
 
@@ -56,33 +56,33 @@ interface
 
 
   type
-    IStringList         = Deltics.Strings.Lists.String_.IStringList;
-    IUtf8StringList     = Deltics.Strings.Lists.Utf8.IUtf8StringList;
-    IWideStringList     = Deltics.Strings.Lists.Wide.IWideStringList;
+    IStringList         = Deltics.StringLists.String_.IStringList;
+    IUtf8StringList     = Deltics.StringLists.Utf8.IUtf8StringList;
+    IWideStringList     = Deltics.StringLists.Wide.IWideStringList;
 
-    TStrings            = Deltics.Strings.Lists.String_.TStrings;
-    TStringList         = Deltics.Strings.Lists.String_.TStringList;
-    TUtf8Strings        = Deltics.Strings.Lists.Utf8.TUtf8Strings;
-    TUtf8StringList     = Deltics.Strings.Lists.Utf8.TUtf8StringList;
-    TWideStrings        = Deltics.Strings.Lists.Wide.TWideStrings;
-    TWideStringList     = Deltics.Strings.Lists.Wide.TWideStringList;
+    TStrings            = Deltics.StringLists.String_.TStrings;
+    TStringList         = Deltics.StringLists.String_.TStringList;
+    TUtf8Strings        = Deltics.StringLists.Utf8.TUtf8Strings;
+    TUtf8StringList     = Deltics.StringLists.Utf8.TUtf8StringList;
+    TWideStrings        = Deltics.StringLists.Wide.TWideStrings;
+    TWideStringList     = Deltics.StringLists.Wide.TWideStringList;
 
   {$ifdef UNICODE}
-    IAnsiStringList     = Deltics.Strings.Lists.Ansi.IAnsiStringList;
-    IUnicodeStringList  = Deltics.Strings.Lists.String_.IStringList;
+    IAnsiStringList     = Deltics.StringLists.Ansi.IAnsiStringList;
+    IUnicodeStringList  = Deltics.StringLists.String_.IStringList;
 
-    TAnsiStringList     = Deltics.Strings.Lists.Ansi.TAnsiStringList;
-    TAnsiStrings        = Deltics.Strings.Lists.Ansi.TAnsiStrings;
-    TUnicodeStringList  = Deltics.Strings.Lists.String_.TStringList;
-    TUnicodeStrings     = Deltics.Strings.Lists.String_.TStrings;
+    TAnsiStringList     = Deltics.StringLists.Ansi.TAnsiStringList;
+    TAnsiStrings        = Deltics.StringLists.Ansi.TAnsiStrings;
+    TUnicodeStringList  = Deltics.StringLists.String_.TStringList;
+    TUnicodeStrings     = Deltics.StringLists.String_.TStrings;
   {$else}
-    IAnsiStringList     = Deltics.Strings.Lists.String_.IStringList;
-    IUnicodeStringList  = Deltics.Strings.Lists.Wide.IWideStringList;
+    IAnsiStringList     = Deltics.StringLists.String_.IStringList;
+    IUnicodeStringList  = Deltics.StringLists.Wide.IWideStringList;
 
-    TAnsiStringList     = Deltics.Strings.Lists.String_.TStringList;
-    TAnsiStrings        = Deltics.Strings.Lists.String_.TStrings;
-    TUnicodeStringList  = Deltics.Strings.Lists.Wide.TWideStringList;
-    TUnicodeStrings     = Deltics.Strings.Lists.Wide.TWideStrings;
+    TAnsiStringList     = Deltics.StringLists.String_.TStringList;
+    TAnsiStrings        = Deltics.StringLists.String_.TStrings;
+    TUnicodeStringList  = Deltics.StringLists.Wide.TWideStringList;
+    TUnicodeStrings     = Deltics.StringLists.Wide.TWideStrings;
   {$endif}
 
 

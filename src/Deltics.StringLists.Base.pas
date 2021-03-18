@@ -1,4 +1,8 @@
-unit Deltics.Strings.Lists.Base;
+
+{$i deltics.stringlists.inc}
+
+  unit Deltics.StringLists.Base;
+
 
 interface
 

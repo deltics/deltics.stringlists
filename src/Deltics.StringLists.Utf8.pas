@@ -37,9 +37,9 @@
   website         : <EXTLINK http://www.deltics.co.nz>www.deltics.co.nz</EXTLINK>
 }
 
-{$i deltics.strings.lists.inc}
+{$i deltics.stringlists.inc}
 
-  unit Deltics.Strings.Lists.Utf8;
+  unit Deltics.StringLists.Utf8;
 
 
 interface
@@ -48,7 +48,7 @@ interface
     Classes,
     Deltics.InterfacedObjects,
     Deltics.StringTypes,
-    Deltics.Strings.Lists.Base;
+    Deltics.StringLists.Base;
 
 
   type
@@ -510,7 +510,7 @@ implementation
 
 
 (*
-  function TUtf8Strings.GetDelimitedText: Utf8String;
+  function TUtf8StringGetDelimitedText: Utf8String;
   var
     S: string;
     P: PChar;
@@ -1656,6 +1656,8 @@ implementation
     if result then
       Inc(fIndex);
   end;
+
+
 
 end.
 

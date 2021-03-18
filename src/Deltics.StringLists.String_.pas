@@ -37,10 +37,9 @@
   website         : <EXTLINK http://www.deltics.co.nz>www.deltics.co.nz</EXTLINK>
 }
 
-{$i deltics.strings.inc}
+{$i deltics.stringlists.inc}
 
-
-  unit Deltics.Strings.Lists.String_;
+  unit Deltics.StringLists.String_;
 
 
 interface
@@ -49,7 +48,7 @@ interface
     Classes,
     Deltics.InterfacedObjects,
     Deltics.StringTypes,
-    Deltics.Strings.Lists.Base;
+    Deltics.StringLists.Base;
 
 
   type
@@ -247,7 +246,7 @@ implementation
 
 
   { - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - }
-  class function TStringlist.CreateManaged: IStringList;
+  class function TStringList.CreateManaged: IStringList;
   begin
     result := TComInterfacedStringList.Create;
   end;
@@ -269,7 +268,7 @@ implementation
 
 
   { - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - }
-  function TStringlist.get_Integer(const aIndex: Integer): Integer;
+  function TStringList.get_Integer(const aIndex: Integer): Integer;
   begin
     result := Integer(Objects[aIndex]);
   end;

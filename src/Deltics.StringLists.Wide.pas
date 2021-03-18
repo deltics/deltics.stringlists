@@ -37,9 +37,9 @@
   website         : <EXTLINK http://www.deltics.co.nz>www.deltics.co.nz</EXTLINK>
 }
 
-{$i deltics.strings.lists.inc}
+{$i deltics.stringlists.inc}
 
-  unit Deltics.Strings.Lists.Wide;
+  unit Deltics.StringLists.Wide;
 
 
 interface
@@ -48,7 +48,7 @@ interface
     Classes,
     Deltics.InterfacedObjects,
     Deltics.StringTypes,
-    Deltics.Strings.Lists.Base;
+    Deltics.StringLists.Base;
 
 
   type

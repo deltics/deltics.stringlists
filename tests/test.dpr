@@ -4,17 +4,15 @@
   program test;
 
 
-
-
-
 uses
   Deltics.Smoketest,
-  Deltics.Strings.Lists in '..\src\Deltics.Strings.Lists.pas',
-  Deltics.Strings.Lists.Ansi in '..\src\Deltics.Strings.Lists.Ansi.pas',
-  Deltics.Strings.Lists.String_ in '..\src\Deltics.Strings.Lists.String_.pas',
-  Deltics.Strings.Lists.Utf8 in '..\src\Deltics.Strings.Lists.Utf8.pas',
-  Deltics.Strings.Lists.Wide in '..\src\Deltics.Strings.Lists.Wide.pas',
-  Deltics.Strings.Lists.Base in '..\src\Deltics.Strings.Lists.Base.pas';
+  Deltics.StringLists in '..\src\Deltics.StringLists.pas',
+  Deltics.StringLists.Base in '..\src\Deltics.StringLists.Base.pas',
+  Deltics.StringLists.Ansi in '..\src\Deltics.StringLists.Ansi.pas',
+  Deltics.StringLists.String_ in '..\src\Deltics.StringLists.String_.pas',
+  Deltics.StringLists.Utf8 in '..\src\Deltics.StringLists.Utf8.pas',
+  Deltics.StringLists.Wide in '..\src\Deltics.StringLists.Wide.pas';
 
 begin
+
 end.

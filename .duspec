@@ -1,5 +1,5 @@
 {
-  "id":"deltics.strings.lists",
+  "id":"deltics.stringlists",
   "version":"",
   "summary":"String list types (equiv to TStringList) for all string types, Ansi, Utf8 and Unicode\/Wide.",
   "tags":[
@@ -16,13 +16,13 @@
   ],
   "source":{
       "files":[
-        "src\\deltics.strings.lists.inc",
-        "src\\Deltics.Strings.Lists.pas",
-        "src\\Deltics.Strings.Lists.Base.pas",
-        "src\\Deltics.Strings.Lists.Ansi.pas",
-        "src\\Deltics.Strings.Lists.String_.pas",
-        "src\\Deltics.Strings.Lists.Utf8.pas",
-        "src\\Deltics.Strings.Lists.Wide.pas"
+        "src\\deltics.stringlists.inc",
+        "src\\Deltics.StringLists.pas",
+        "src\\Deltics.StringLists.Base.pas",
+        "src\\Deltics.StringLists.Ansi.pas",
+        "src\\Deltics.StringLists.String_.pas",
+        "src\\Deltics.StringLists.Utf8.pas",
+        "src\\Deltics.StringLists.Wide.pas"
       ]
     }
 }

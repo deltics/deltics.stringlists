@@ -1,1 +1,1 @@
-# Deltics.Strings.Lists
+# Deltics.StringLists
