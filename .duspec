@@ -1,0 +1,28 @@
+{
+  "id":"deltics.stringlists",
+  "version":"",
+  "summary":"String list types (equiv to TStringList) for all string types, Ansi, Utf8 and Unicode\/Wide.",
+  "tags":[
+    "deltics",
+    "strings",
+    "lists"
+  ],
+  "copyright":"\u00a92019 Jolyon Direnko-Smith",
+  "language":"en",
+  "content":"source",
+  "dependencies":[
+    "deltics.inc:1.3.0",
+    "deltics.strings:2.0.0"
+  ],
+  "source":{
+      "files":[
+        "src\\deltics.stringlists.inc",
+        "src\\Deltics.StringLists.pas",
+        "src\\Deltics.StringLists.Base.pas",
+        "src\\Deltics.StringLists.Ansi.pas",
+        "src\\Deltics.StringLists.String_.pas",
+        "src\\Deltics.StringLists.Utf8.pas",
+        "src\\Deltics.StringLists.Wide.pas"
+      ]
+    }
+}
